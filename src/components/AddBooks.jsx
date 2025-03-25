@@ -26,15 +26,15 @@ const handleSubmit=(e)=>{
 
                 <div>
                     <label htmlFor="">Description</label>
-                    <input  name="description" type="text"  onChange={handleChange}/>
+                    <input  name="description" type="text" placeholder='description' onChange={handleChange}/>
                 </div>
                 <div>
                     <label htmlFor="">Author</label>
-                    <input  name="author" type="text"  onChange={handleChange} />
+                    <input  name="author" type="text" placeholder='author' onChange={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="">CoverImage</label>
-                    <input   name="coverImage" type="text"  onChange={handleChange}/>
+                    <input   name="coverImage" type="text" placeholder='coverImage' onChange={handleChange}/>
                 </div>
                 <input type="submit" />
             </form>
